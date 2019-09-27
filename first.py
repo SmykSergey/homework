@@ -4,5 +4,5 @@ z = 5
 
 if z <= 1 :
     print("Hey")
-else :
+else 
     print("Ho")

@@ -1,4 +1,7 @@
 from random import randrange
+import time
+from datetime import datetime
+
 #buble
 my_list = [ randrange(0, 15) for i in range(10) ]
 
@@ -17,3 +20,11 @@ while i < max_list:
     i += 1
 
 print( my_list )
+
+
+
+from datetime import datetime
+start_time = datetime.now()
+# do your work here
+end_time = datetime.now()
+print('Duration: {}'.format(end_time - start_time))
